@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML Form</title>
+</head>
+<body>
+
+<form method="post" enctype="text/plain">
+<fieldset style="width:1000px">
+<legend><b>STUDENT REGISTRATION FORM</b></legend>
+<h4>___________________Login Info.________________________</h4><br/>
+<label for="name">Enter your Username: </label>
+<input type="text" name="name" size="25"><br/><br/>
+<label for="password"> Enter your Password: </label>
+<input type="password" name="password" size="20" ><br/>
+<h4>_________________Other Personal Information_____________</h4><br/>
+<label for="gen"><b>Gender</b></label>&nbsp;
+Male<input type="radio" name="gen">
+Female<input type="radio" name="gen"><br/><br/>
+<label for="file"><b> Attach your Photo...</b></label>
+File:<input type="file"><br/>
+<h4>_________________Your Background-Qualification____________</h4>
+<label for="check"><b>School attended before</b></label>&nbsp;
+High School Certificate<input type="checkbox" name="check" checked="checked">
+Bachelor's Degree<input type="checkbox" name="check"><br/>
+<h4>__________________Choose Your Team______________________</h4><br/>
+<label for="sel"><b>Football Teams' Fan of</b></label>
+<select>
+<optgroup label="Rwandan Teams">
+<option> GASOGI FC</option>
+<option> APR FC </option>
+<option> RAYON Sport</option>
+</optgroup>
+<optgroup label="Foreign Teams">
+<option> Chelsea FC </option>
+<option> FC Barcelone </option>
+<option> PSG </option>
+</optgroup>
+</select>
+
+
+</fieldset>
+</form>
+<center><input type="submit" name="Submit">
+<input type="reset" name="Cancel"></center>
+<br/>
+<br/>
+<a href="ImageLinkToTable.html" tagert="_blank"  style="float: right;"><u> Go Back to the Link</u></a>
+
+
+
+</body>
+</html>
